@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    box-shadow: 8px 8px 15px #fe07074a;
+    color: rgb(108, 122, 127);
+}
+
+.card .id{
+    margin: 1em 0;
+    color: rgb(254, 11, 11);
+    font-weight: bold;
+}
+
+.card .title{
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+}
+
+.card .btn{
+    text-decoration: none;
+    color: #f60909;
+    padding: 0.4em 2em;
+    border:#fa0707 solid 2px;
+    border-radius: 12px ;
+    transition: 0.2s;
+}
+
+.card .btn:hover{
+    background-color: #fb0606;
+    color: white;
+    border: #fb0606 solid 2px;
+}
